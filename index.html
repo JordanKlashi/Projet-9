@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="fr">
-<title>Nina Carducci - Photographe à Bordeaux </title>
+<html lang="fr" itemscope>
 
 <head>
+	<title>Nina Carducci - Photographe à Bordeaux </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style/style.css">
-	<link rel="./assets/images/nina-560.webp" />
+	<link rel="stylesheet" href="./assets/style/style.min.css">
 	<meta charset="UTF-8">
 	<meta property="og:image" content="./assets/images/nina-560.webp" />
 	<meta property="og:image:type" content="image/webp" />
@@ -16,7 +15,7 @@
 	<meta name="twitter:site" content="NinaCarducci.fr" />
 	<meta name="twitter:title" content='Nina Carducci - Photographe à Bordeaux' />
 	<meta name="twitter:description" content="Photographe professionel opérant sur la région de Bordeaux. Disponible pour tout vos Evènements : 
-	Mariage, Concert, Portrait et Photos d'entreprise."/>
+	Mariage, Concert, Portrait et Photos d'entreprise." />
 	<meta name="twitter:image" content="./assets/images/nina-560.webp" />
 	<meta name="description" content="Photographe professionel opérant sur la région de Bordeaux. Disponible pour tout vos Evènements : 
 	Mariage, Concert, Portrait et Photos d'entreprise.">
@@ -28,12 +27,13 @@
 		<h1 itemprop="name" class="name">Nina Carducci</h1>
 		<div class="nav">
 			<ul>
-				<li><a itemprop="About" href="#about">À propos</a></li>
-				<li><a itemprop="Gallery" href="#gallery">Galerie</a></li>
-				<li><a itemprop="Services" href="#services">Service</a></li>
-				<li><a itemprop="Contact" href="#contact">Contact</a></li>
-				<li><a itemprop="SocialMedia" class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-						target="_blank"><img src="assets/images/instagram.png" alt="Logo Instagram"></a></li>
+				<li><a itemprop="about" href="#about">À propos</a></li>
+				<li><a itemprop="gallery" href="#gallery">Galerie</a></li>
+				<li><a itemprop="services" href="#services">Service</a></li>
+				<li><a itemprop="contact" href="#contact">Contact</a></li>
+				<li><a itemprop="SocialMedia" class="social-link"
+						href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img
+							src="assets/images/instagram.png" alt="Logo Instagram"></a></li>
 			</ul>
 		</div>
 	</div>
@@ -48,16 +48,16 @@
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
 					aria-label="Slide 3"></button>
 			</div>
-			<div itemscope itemtype="https://schema.org/Photography" class="carousel-inner">
+			<div itemscope itemtype="https://schema.org/ImageObject" class="carousel-inner">
 				<div class="carousel-item active">
-					<img itemprop="Photoshoot" content="Photographe Portrait"
-					src="./assets/images/slider/Un-homme-traversant-un-passage-pieton-1920.webp" srcset="
+					<img itemprop="caption" content="Photography"
+						src="./assets/images/slider/Un-homme-traversant-un-passage-pieton-1920.webp" srcset="
     ./assets/images/slider/Un-homme-traversant-un-passage-pieton-300.webp 300w,
     ./assets/images/slider/Un-homme-traversant-un-passage-pieton-1140.webp 1140w,
     ./assets/images/slider/Un-homme-traversant-un-passage-pieton-1580.webp 1580w,
     ./assets/images/slider/Un-homme-traversant-un-passage-pieton-1920.webp 1920w"
 						sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)" class="d-block w-100"
-						alt="Portrait Photo Bordeaux" >
+						alt="Portrait Photo Bordeaux">
 
 				</div>
 				<div class="carousel-item">
@@ -65,12 +65,13 @@
 				./assets/images/slider/Photo-d-un-concert-1580.webp 1580w,
 				./assets/images/slider/Photo-d-un-concert-1140.webp 1140w,
 				./assets/images/slider/Photo-d-un-concert-320.webp 320w" sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
-						class="d-block w-100" alt="Photographie Concert" itemprop="photoshoot"
-						content="Photographie Concert" loading="lazy">
+						class="d-block w-100" alt="Photographie Concert" itemprop="caption" content="Photography"
+						loading="lazy">
 				</div>
 				<div class="carousel-item">
 					<img src="./assets/images/slider/Photo-d-un-marriage-1920.webp" class="d-block w-100"
-						alt="Photographie Marriage Bordeaux" itemprop="Photo Marriage" content="Photographe Marriage" loading="lazy">
+						alt="Photographie Marriage Bordeaux" itemprop="Photo Marriage" content="Photographe Marriage"
+						loading="lazy">
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -98,7 +99,8 @@
 			<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
 				prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
 				immortels, voilà ce qui me fait vibrer.</p>
-			<p class="about-me__sousintroduction">Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le
+			<p class="about-me__sousintroduction">Nous passons notre vie à chercher le bonheur, et lorsque nous y
+				touchons, nous n’avons qu’une envie : le
 				figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux,
 				ou le partager au plus grand nombre.
 				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma
@@ -110,8 +112,8 @@
 		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
 			<div itemscope itemtype="https://schema.org/Portfolio" class="gallery" style="display: none">
-				<img itemprop="Photo Concert" data-gallery-tag="Concert" class="gallery-item img-fluid" alt="Photo-gallerie-Concert"
-					src="./assets/images/gallery/concerts/Concert-Aaron-1090.webp" srcset="./assets/images/gallery/concerts/Concert-Aaron-848.webp 848w,
+				<img itemprop="Photo Concert" data-gallery-tag="Concert" class="gallery-item img-fluid"
+					alt="Photo-gallerie-Concert" src="./assets/images/gallery/concerts/Concert-Aaron-1090.webp" srcset="./assets/images/gallery/concerts/Concert-Aaron-848.webp 848w,
 					./assets/images/gallery/concerts/Concert-Aaron-728.webp 728w,
 					./assets/images/gallery/concerts/Concert-Aaron-608.webp 608w,
 					./assets/images/gallery/concerts/Concert-Aaron-448.webp 448w,
@@ -135,6 +137,7 @@
 					src="./assets/images/gallery/mariage/Photo-d-un-couple-se-tenant-la-main-min.webp" srcset="./assets/images/gallery/mariage/Photo-d-un-couple-se-tenant-la-main-min-848.webp 848w,
 					./assets/images/gallery/mariage/Photo-d-un-couple-se-tenant-la-main-min-608.webp 608w,
 					./assets/images/gallery/mariage/Photo-d-un-couple-se-tenant-la-main-min-304.webp 304w"
+					sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
 					alt="Photo-gallerie-marriage" loading="lazy" />
 				<img itemprop="photo portrait" data-gallery-tag="Portrait" class="gallery-item"
 					src="./assets/images/gallery/portraits/Photo-portrait-Portefolio-2-min.webp" srcset="./assets/images/gallery/portraits/Photo-portrait-Portefolio-2-min-848.webp 848w,
@@ -159,7 +162,7 @@
 					alt="Photo-gallerie-Portrait-2" loading="lazy" />
 				<img itemprop="Photo Concert" data-gallery-tag="Concert" class="gallery-item"
 					src="./assets/images/gallery/concerts/Concert-Austin-Neil-1090.webp" srcset="./assets/images/gallery/concerts/Concert-Austin-Neil-848.webp 848w,
-					./assets/images/gallery/concerts/Concert-Austin-Neil-608.webp 608w,"
+					./assets/images/gallery/concerts/Concert-Austin-Neil-608.webp 608w"
 					sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
 					alt="Photo-gallerie-Concert-2" loading="lazy" />
 				<img itemprop="Photo Entreprise" data-gallery-tag="Entreprises" class="gallery-item"
@@ -182,41 +185,47 @@
 			</figure>
 		</div>
 	</div>
-	<div itemscope itemtype="Product" id="services">
+	<div id="services" itemscope itemtype="https://schema.org/Offer" itemprop="businessFunction">
 		<h2 class="title">Mes services</h2>
 		<div itemprop="category" class="container">
 			<div class="service">
 				<div class="service__description">
-					<h3 itemprop="name" itemscope itemtype="https://schema.org/Text">Shooting photo</h3>
-					<p itemprop="description">Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en
+					<h3 itemscope itemtype="https://schema.org/Text" itemprop="name">Shooting photo</h3>
+					<p itemprop="description">Pour capturer vos moments les plus précieux et garder un souvenir
+						impérissable. Je me déplace en
 						Île-de-France pour réaliser vos photos</p>
 				</div>
-				<div itemprop="offers" itemscope itemtype="https://schema.org/Offer" class="service__price">
+				<div itemscope itemtype="https://schema.org/Offer" itemprop="offers" class="service__price">
 					<h4 itemprop="price">350€/demi journée</h4>
-					<span itemscope itemtype="https://schema.org/Text" itemprop="description">Matériel, déplacement inclus</span>
+					<span itemscope itemtype="https://schema.org/Text" itemprop="description">Matériel, déplacement
+						inclus</span>
 				</div>
 
 			</div>
 			<div class="service">
 				<div class="service__description">
-					<h3 itemprop="name" itemscope itemtype="https://schema.org/Text">Retouches</h3>
-					<p itemprop="description">Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu
+					<h3 itemscope itemtype="https://schema.org/Offer" itemprop="offers">Retouches</h3>
+					<p itemscope itemtype="https://schema.org/Text" itemprop="description">Vous souhaitez retoucher vos
+						photos pour un résultat professionnel ?
+						Bénéficier d’un rendu
 						optimal pour vos publications</p>
 				</div>
-				<div itemprop="offers" itemscope itemtype="https://schema.org/Offer"  class="service__price">
+				<div itemscope itemtype="https://schema.org/Offer" itemprop="offers" class="service__price">
 					<h4 itemprop="price">50€/photo</h4>
 					<span itemscope itemtype="https://schema.org/Text" itemprop="description">2 AR par photo</span>
 				</div>
 			</div>
 			<div class="service">
 				<div class="service__description">
-					<h3 itemprop="name" itemscope itemtype="https://schema.org/Text">Album photos</h3>
-					<p itemprop="description">Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un
+					<h3 itemscope itemtype="https://schema.org/Text" itemprop="name">Album photos</h3>
+					<p itemprop="description">Partagez avec vos proches et vos clients les photos des moments partagés
+						ensemble à travers un
 						album photo personnalisé</p>
 				</div>
-				<div itemprop="offers" itemscope itemtype="https://schema.org/Offer"   class="service__price">
-					<h4  itemprop="price">400€ album A4</h4>
-					<span itemscope itemtype="https://schema.org/Text" itemprop="description">30 pages recto/verso</span>
+				<div itemscope itemtype="https://schema.org/Offer" itemprop="offers" class="service__price">
+					<h4 itemprop="price">400€ album A4</h4>
+					<span itemscope itemtype="https://schema.org/Text" itemprop="description">30 pages
+						recto/verso</span>
 				</div>
 			</div>
 		</div>
@@ -235,15 +244,15 @@
 			<div itemscope itemtype="https://schema.org/Organization" class="form-container">
 				<h3>Une question ? Une demande de devis ?</h3>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-				<form action="" method="post">
+				<form action="mailto:NinaCarducci@PhotoNina.com" method="get" enctype="text/plain">
 					<label>Nom
-						<input itemprop="contactPoint" label="Votre Nom" type="text" name="nom" id="nom"></label>
+						<input itemprop="contactPoint" type="text" name="nom" id="nom"></label>
 					<label>Email
 						<input itemprop="contactPoint" type="email" name="email" id="email"></label>
 					<label>Message
-						<textarea itemprop="contactPoint" label="Votre Message" name="message" id="message" cols="30"
+						<textarea itemprop="contactPoint" name="message" id="message" cols="30"
 							rows="10"></textarea></label>
-					<input label="Envoyer vos informations" type="submit" value="Envoyer" />
+					<input type="submit" value="Envoyer">
 				</form>
 			</div>
 			<div class="picture right">
@@ -261,24 +270,19 @@
 			"@context": "https://schema.org",
 			"@type": "LocalBusiness",
 			"name": "Nina Carducci Photographie",
+			"image": ".assets/images/nina-256.webp",
 			"address": {
 				"@type": "PostalAddress",
+				"addressCountry": "Fr",
 				"streetAddress": "68 avenue Alsace-Lorraine",
 				"addressLocality": "Bordeaux",
-				"addressRegion": "",
 				"postalCode": "33200"
 			},
-			"telePhone": "05 56 67 78 89",
-			"openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
+			"telephone": "05 56 67 78 89",
+			"openingHours": "Mo,Tu,We,Th,Fr,Sa 10:00-19:00",
 			"openingHoursSpecification": [ {
 				"@type": "OpeningHoursSpecification",
-				"dayOfWeek": [
-					"Monday",
-					"Tuesday",
-					"Wednesday",
-					"Thursday",
-					"Friday"
-				],
+				"dayOfWeek": "sunday",
 				"opens": "10:00",
 				"closes": "19:00"
 			} ],
